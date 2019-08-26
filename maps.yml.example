@@ -1,0 +1,29 @@
+:ynab: 
+  :access_token: YNAB-ACCESS-TOKEN
+  :budget_id: YNAB-BUDGET-ID
+:banks:
+  bmo:
+    :payee: Description
+    :amount: Transaction Amount
+    :amount_format: negative
+    :date: Transaction Date
+    :date_format: '%Y%m%d'
+    :account_id: YNAB-ACCOUNT-ID
+  rbc:
+    :payee: 
+      - Description 1
+      - Description 2
+    :amount: CAD$
+    :amount_format: positive
+    :date: Transaction Date
+    :date_format: '%m/%d/%Y'
+    :account_id: YNAB-ACCOUNT-ID
+  tangerine:
+    :payee: Name
+    :amount: Amount
+    :amount_format: positive
+    :date: Date
+    :date_format: '%m/%d/%Y'
+    :account_id: YNAB-ACCOUNT-ID
+
+
